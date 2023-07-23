@@ -15,10 +15,10 @@ Before using the code, you need to make a few modifications:
 
 ##How the Code Works
 
--The PHP code is embedded within the HTML file and executed on the server when the page is requested.
--The code fetches the GitHub profile data using the GitHub API by sending an HTTP request to the specified API URL with the provided access token for authentication.
--It checks if the profile data contains the message 'Not Found,' indicating that the user does not exist. If so, it displays an error message.
--If the profile data is successfully retrieved and does not indicate a user not found, it displays the user's profile information in the defined container.
+*The PHP code is embedded within the HTML file and executed on the server when the page is requested.
+*The code fetches the GitHub profile data using the GitHub API by sending an HTTP request to the specified API URL with the provided access token for authentication.
+*It checks if the profile data contains the message 'Not Found,' indicating that the user does not exist. If so, it displays an error message.
+*If the profile data is successfully retrieved and does not indicate a user not found, it displays the user's profile information in the defined container.
 
 
 ##Note
